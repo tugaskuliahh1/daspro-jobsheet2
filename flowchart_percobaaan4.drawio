@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" modified="2023-10-04T07:54:20.676Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ur_WyLwjkE_Jn0Va_-TG" version="22.0.2" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="eojPDkdL5U74ok4FoDWk-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eojPDkdL5U74ok4FoDWk-2" value="Int harga, jumlah, jmlHalBuku&lt;br&gt;Double dis, total, bayar, jmlDis&lt;br&gt;String merkBuku" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="115" y="170" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eojPDkdL5U74ok4FoDWk-3" value="Input merkBuku, jumlah, jmlBuku,&lt;br&gt;harga,dis" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="290" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eojPDkdL5U74ok4FoDWk-4" value="Total = harga*jumlah&lt;br&gt;jmlDis = total*dis&lt;br&gt;bayar = total-jmlDis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="117.5" y="410" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eojPDkdL5U74ok4FoDWk-5" value="Display Merk Buku, Jumlah&lt;br&gt;Halaman Buku, Jumlah Diskon,&lt;br&gt;Jumlah Diskon yang harus dibayar&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="525" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eojPDkdL5U74ok4FoDWk-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="219.5" y="470" as="sourcePoint" />
+            <mxPoint x="219.5" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eojPDkdL5U74ok4FoDWk-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="219.5" y="350" as="sourcePoint" />
+            <mxPoint x="219.5" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eojPDkdL5U74ok4FoDWk-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="219.5" y="250" as="sourcePoint" />
+            <mxPoint x="219.5" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eojPDkdL5U74ok4FoDWk-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="219.5" y="130" as="sourcePoint" />
+            <mxPoint x="219.5" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eojPDkdL5U74ok4FoDWk-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="219.5" y="590" as="sourcePoint" />
+            <mxPoint x="220" y="635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eojPDkdL5U74ok4FoDWk-14" value="Selesai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="630" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
